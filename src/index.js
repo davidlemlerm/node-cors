@@ -36,14 +36,11 @@ app.use(
   })
 );
 app.use(helmet.noSniff());
-/* Disabled so that CodeSandbox can
-iFrame responses from this server
 app.use(
   helmet.frameguard({
     action: "deny"
   })
 );
-*/
 app.use(helmet.hidePoweredBy());
 app.use(helmet.xssFilter());
 

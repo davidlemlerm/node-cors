@@ -1,2 +1,2 @@
 # node-cors
-Created with CodeSandbox
+Simple Node.js and Express app that demonstrates the use of the CORS middleware.
